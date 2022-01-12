@@ -1,11 +1,12 @@
-function listing(){
+import Pagination from 'Components/Pagination'; 
+function Listing() {
 
+    return (
 
-    return(
-
-<h1>Página de listagem</h1>
-
-    );
+        < Pagination/>
+  );
 }
-export default listing;
+export default Listing;
+
+
 
